@@ -1,1 +1,0 @@
-[{"inputs":[{"internalType":"address","name":"userAddr","type":"address"}],"name":"verifyIdentity","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"view","type":"function"}]
