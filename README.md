@@ -27,6 +27,10 @@ ve stažené složce v rootu npm install truffle
 ../node_modules/.bin/truffle migrate --network sepolia
 V případě nasazazení smart kontraktu identityRegistry je nutné změnit adresu smart kontraktu identityRegistry ve smart kontraktu Queans ve konstruktoru v aplikacích Voter a Moderator, kterou lze získat jako odpověď po zadání příkazu truffle migrate --network sepolia nebo použitím transaction hashe na webu https://sepolia.etherscan.io/ a změnit adresu smart kontraktu identityRegistry v aplikace Management ve složce src/identityRegistry.js, kde se nahradí aktuální adresa smart kontraktu, tak se docílí napojení aplikace na smart kontrakt
 Následně je nutné použít v root složce v aplikacích Voter a Moderator příkaz npm run compile pro vytvoření ABI smart kontraktu Queans. ABI se vytvoří ve složce build/src_contracts_Queans_sol_Queans.abi a je nutné ho zkopírovat a nahradit stávající ABI ve složce src/queans.js
-
+Při nasazení smart kontraktu Queans je nutné vložit novou adresu smart kontraktu do souboru queans.js ve složce src.
 // Test smart kontraktů
+ve stažené složce v rootu npm install ganache
+zapnutí ganache příkazem ../node_modules/.bin/ganache
+v jiné okně ve stažené složce v rootu npm install truffle
+a použít příkaz ../node_modules/.bin/truffle test
 
