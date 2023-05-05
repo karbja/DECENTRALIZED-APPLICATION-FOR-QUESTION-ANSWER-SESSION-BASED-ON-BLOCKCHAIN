@@ -44,3 +44,4 @@ Test smart kontraktů
 
 4. Použít příkaz ../node_modules/.bin/truffle test k zapnutí testů
 
++ update v Queans
