@@ -1,25 +1,23 @@
 # DECENTRALIZED-APPLICATION-FOR-QUESTION-ANSWER-SESSION-BASED-ON-BLOCKCHAIN
 // Vyzkoušení aplikace
 
-1. Stáhnout složku s aplikací
+1. Stáhnout složku s aplikací (Voter/Moderator/Management)
 
-2. V konzoli přejít do stažené složky a rootu spustit příkaz npm install
+2. Otevřít konzoli a přejít do stažené složky a v rootu spustit příkaz npm install
 
-3. Stáhnout webové rozšíření Metamask a vytvořit účet a přihlásit se
+3. Stáhnout si webové rozšíření Metamask, vytvořit účet a přihlásit se
 
-4. Zapnout možnost Show test networks v Settings/Advanced
+4. V peněžence Metamask zapnout možnost Show test networks v Settings/Advanced a následně přepnout síť na Sepolia Testnet
 
-5. Přepnutí na Sepolia Testnet
+5. Stáhnout Visual Studio Code
 
-6. Stáhnout Visual Studio Code
+6. Otevřít aplikaci ve Visual Studio Code a zapnout příkazem npx expo start
 
-7. Otevření apliakce a zapnutí příkazem npx expo start
-
-8. Stisk w
+7. Zmáčkout možnost open web pomocí tlačítka W
 
 // Deploy smart kontraktů
-Založení účtu na infura.io, vytvořit projekt a 
-Ve složce src vytvořit soubor .env a vyplnit následující
+1. Založení účtu na infura.io a vytvořit si nový API klíč s typem Network Web3 API
+Ve složce src vytvořit soubor s názvem .env a vyplnit následující
   MNEMONIC - Seed phrase Metamask peněženky - 12 slov
   URL_SEPOLIA - URL na sepolia testnet včetně project id
   PRIVATE_KEY - Privátní klíč z Metamask účtu - otevřít Metamask, vpravo od názvu účtu kliknout na trojtečku, zvolit možnost detaily účtu a exportovat privátní klíč
