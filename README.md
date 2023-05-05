@@ -1,5 +1,5 @@
 # DECENTRALIZED-APPLICATION-FOR-QUESTION-ANSWER-SESSION-BASED-ON-BLOCKCHAIN
-// Vyzkoušení aplikace
+Vyzkoušení aplikace
 
 1. Stáhnout složku s aplikací (Voter/Moderator/Management)
 
@@ -15,7 +15,7 @@
 
 7. Zmáčkout možnost open web pomocí tlačítka W
 
-// Deploy smart kontraktů
+Deploy smart kontraktů
 1. Založení účtu na infura.io a vytvořit si nový API klíč s typem Network Web3 API
 
 2. Ve složce src vytvořit soubor s názvem .env a vyplnit následující
@@ -35,7 +35,7 @@ Následně je nutné použít v root složce v aplikacích Voter a Moderator př
 (Aplikace Voter nebo Moderator)
 Při nasazení smart kontraktu Queans je nutné vložit novou adresu smart kontraktu do souboru src/queans.js.
 
-// Test smart kontraktů
+Test smart kontraktů
 1. Otevřít konzoli a ve složce src spustit příkaz npm install ganache
 
 2. Zapnout ganache příkazem ../node_modules/.bin/ganache
