@@ -31,3 +31,5 @@ Při nasazení smart kontraktu Queans je nutné vložit novou adresu smart kontr
 4. Otevřít aplikaci a ve smart kontraktu Queans je nutné odkomentovat funkci update 
 5. Použít příkaz **. ./node_modules/.bin/truffle test** k zapnutí testů
 
+### Odkaz na Youtube video
+https://youtu.be/ZtQJVtt6sNc
